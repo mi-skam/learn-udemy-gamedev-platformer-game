@@ -1,0 +1,33 @@
+{
+  "tasks": {
+    "esm:add": "deno run -A https://esm.sh/v135 add",
+    "esm:update": "deno run -A https://esm.sh/v135 update",
+    "esm:remove": "deno run -A https://esm.sh/v135 remove",
+    "dev": "deno run -A --node-modules-dir npm:vite dev --host",
+    "build": "deno run -A --node-modules-dir npm:vite build"
+  },
+  "imports": {
+    "colors": "https://esm.sh/v135/colors@1.4.0",
+    "phaser3": "https://esm.sh/v135/*phaser3@0.4.34",
+    "postcss": "https://esm.sh/v135/*postcss@8.4.38",
+    "postcss/": "https://esm.sh/v135/*postcss@8.4.38/",
+    "qrcode_terminal": "https://deno.land/x/qrcode_terminal@v1.1.1/mod.js"
+  },
+  "scopes": {
+    "https://esm.sh/v135/": {
+      "dijkstrajs": "https://esm.sh/v135/dijkstrajs@1.0.3",
+      "encode-utf8": "https://esm.sh/v135/encode-utf8@1.0.3",
+      "esbuild": "https://esm.sh/v135/esbuild@0.20.2",
+      "eventemitter3": "https://esm.sh/v135/eventemitter3@4.0.7",
+      "exports-loader": "https://esm.sh/v135/exports-loader@1.1.1",
+      "imports-loader": "https://esm.sh/v135/imports-loader@1.2.0",
+      "nanoid": "https://esm.sh/v135/nanoid@3.3.7",
+      "path": "https://esm.sh/v135/path@0.12.7",
+      "picocolors": "https://esm.sh/v135/picocolors@1.0.0",
+      "pngjs": "https://esm.sh/v135/pngjs@5.0.0",
+      "rollup": "https://esm.sh/v135/rollup@4.14.3",
+      "source-map-js": "https://esm.sh/v135/source-map-js@1.2.0",
+      "yargs": "https://esm.sh/v135/yargs@15.4.1"
+    }
+  }
+}
